@@ -1,0 +1,154 @@
+ 
+<!DOCTYPE html> 
+<html ng-app="myapp"> 
+ <head>  
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <meta name="keywords" content="HTML5 Template" /> 
+  <meta name="description" > 
+  <meta name="theme-color" content="#050e82" />  
+  <!-- Mobile Metas --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!-- Web Fonts  -->00000000000000000000000000 
+  <link href='css/css.css' rel='stylesheet' type='text/css'> 
+  <link rel="stylesheet" href="fonts/font.css"> 
+   
+ 
+  <!-- Vendor CSS --> 
+  <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css"> 
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.css" media="screen"> 
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.css" media="screen"> 
+  <link href="vendor/owl-carousel/owl.transitions.html" rel="stylesheet" media="screen"> 
+  <link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen"> 
+  <link rel="stylesheet" href="vendor/chosen/chosen.css" media="screen"> 
+  <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">  
+  <!-- Theme CSS --> 
+  <link rel="stylesheet" href="css/theme.css"> 
+  <link rel="stylesheet" href="css/theme-animate.css">  
+         
+  <!-- Style Switcher-->  
+  <!-- Head libs --> 
+  <script src="vendor/modernizr/modernizr.js"></script> 
+  
+  <!--[if IE]> 
+   <link rel="stylesheet" href="css/ie.css"> 
+  <![endif]-->  
+  <!--[if lte IE 8]> 
+   <script src="vendor/respond/respond.js"></script> 
+   <script src="vendor/excanvas/excanvas.js"></script> 
+  <![endif]-->  
+        <style> 
+   .container { 
+    background-color: #050e82; 
+    position:relative; 
+    margin-top:100px; 
+   } 
+   .row{ 
+   margin-left:50px; 
+   margin-right:50px; 
+   text-align:center; 
+   } 
+ 
+   .login p{ 
+   position:relative; 
+   text-align:center; 
+   font-size:30px; 
+   color:#ffffff; 
+   } 
+    
+   p{ 
+   position:relative; 
+   text-align:center; 
+   font-family:''Quicksand''; 
+   font-size:35px; 
+   color:#ffffff; 
+   font-weight:200; 
+   } 
+   h2{ 
+   position:relative; 
+   text-align:center; 
+   font-size:30px; 
+   color:#ffffff; 
+   font-weight:200; 
+ 
+   } 
+   h3{ 
+   text-align:center; 
+   font-size:80px; 
+   color:#ffffff; 
+   font-weight:200; 
+   } 
+   img{ 
+   align:middle; 
+   } 
+    
+        </style>  
+<!-- script back button --> 
+  <script src="cordova.js"></script> 
+  <script> 
+  function onLoad()  
+  { 
+   document.addEventListener("deviceready", deviceReady, false); 
+  } 
+  function deviceReady()  
+ 
+  { 
+   document.addEventListener("backbutton", backButtonCallback, false); 
+  } 
+  function backButtonCallback()  
+  { 
+   navigator.app.exitApp(); 
+  } 
+  </script>  
+  
+ <!-- angular js --> 
+ <script src="js/angular-1.3.js"></script> 
+ <script src="js/angular_cookies.js"></script> 
+ </head> 
+<body > 
+  <div class="container"> 
+   
+  <h2>Fuel Delivery On Demand</h2> 
+   <div class="row"> 
+    <div class="col-md-12" style="margin-left:0px;" > 
+ 
+     <img class="img-responsive" src="images/wall.jpg" width="400px" height="400px" > 
+    </div> 
+   
+   <div class="login" style="margin-left:0px;"> 
+     <div class="col-md-4" > 
+      <a href="user_login.html"> <button  style="background-color:white;font-weight:bold;color:#000;letter-spacing:1px">User Login</button> </a> <br><br> 
+      <a href="user_register.html"><button href="user_register.html" style="background-color:white;font-weight:bold;color:#000;letterspacing:1px">User Register</button> </a><br><br> 
+       <a href="admin_login.html"><button href="user_register.html" style="background-color:white;font-weight:bold;color:#000;letterspacing:1px">Admin Login</button> </a><br><br>  
+      <a href="worker_login.html"><button href="worker_login.html" style="background-color:white;font-weight:bold;color:#000;letterspacing:1px">Bunk Login</button> </a><br><br> 
+      <a href="worker_register.html"><button href="worker_register.html" style="background-color:white;font-weight:bold;color:#000;letterspacing:1px">Bunk Register</button> </a><br><br> 
+       
+     </div> 
+    </div> 
+  
+                                     </div>  
+  <script src="vendor/jquery/jquery.js"></script> 
+  <script src="vendor/bootstrap/bootstrap.js"></script> 
+  <script src="vendor/jquery.validation/jquery.validation.js"></script> 
+  <script src="vendor/owlcarousel/owl.carousel.js"></script> 
+  <script src="vendor/flexslider/jquery.flexslider-min.js"></script> 
+  <script src="vendor/countdown/countdown.min.js"></script> 
+  <script src="vendor/chosen/chosen.jquery.min.js"></script> 
+  <script src="vendor/pricefilter/jquery.pricefilter.js"></script> 
+  <script src="vendor/masonry/imagesloaded.pkgd.min.js"></script> 
+  <script src="vendor/masonry/masonry.pkgd.min.js"></script> 
+  <script src="vendor/uikit/uikit.js"></script> 
+  <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script> 
+   
+  <!-- Theme Base, Components and Settings --> 
+  <script src="js/theme.js"></script> 
+   
+  <!-- Style Switcher --> 
+  <script type="text/javascript" src="style-switcher/js/switcher.js"></script> 
+ 
+   
+ <!-- angular js --> 
+ <script src="js/angular_product.js"></script> 
+ <body onload="onLoad()">   
+</body> 
+</html> 
